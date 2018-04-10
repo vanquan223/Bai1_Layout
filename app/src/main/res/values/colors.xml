@@ -4,6 +4,7 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
     <color name="colorWhite">#ffffff</color>
+    <color name="colorBlack">#000000</color>
     <color name="color1">#25f700</color>
     <color name="color2">#fc0800</color>
     <color name="color3">#faea38</color>
@@ -15,7 +16,4 @@
     <color name="maytinh2">#16a6ff</color>
     <color name="maytinh3">#cecdce</color>
     <color name="maytinh4">#e300ef</color>
-    <color name="maytinh5">#e300ef</color>
-    <color name="maytinh6">#e300ef</color>
-    <color name="maytinh7">#e300ef</color>
 </resources>
