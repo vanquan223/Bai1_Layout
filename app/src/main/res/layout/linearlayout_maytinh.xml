@@ -9,8 +9,8 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="20"
-        android:background="@drawable/vien_button"
-        android:hint="0123456789"
+        android:background="@color/maytinh1"
+        android:hint="@string/ddd"
         android:textSize="40sp"
         android:gravity="bottom|right"/>
 
@@ -213,6 +213,6 @@
             android:layout_weight="25"
             android:text="="
             android:textSize="30sp"
-            android:background="@color/maytinh2"/>
+            android:background="@drawable/vien_button"/>
     </LinearLayout>
 </LinearLayout>
