@@ -12,9 +12,9 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.linearlayout_maytinh);
 
-        Button button = (Button) findViewById(R.id.id_btn);
+        /*Button button = (Button) findViewById(R.id.id_btn);
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
                 ImageButton imageButton = (ImageButton) findViewById(R.id.image_button);
                 ImageView imageView = (ImageView) findViewById(R.id.image_view);
             }
-        });
+        });*/
 
 
         /*imageButton.setOnClickListener(new View.OnClickListener() {
