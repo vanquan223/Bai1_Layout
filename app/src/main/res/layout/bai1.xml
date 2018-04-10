@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:background="@drawable/image"
+        android:scaleType="fitCenter"/>
+    <ImageButton
+        android:id="@+id/image_button"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@drawable/image"
+        android:gravity="center"
+        android:layout_centerInParent="true" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+        <RadioButton
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="bai1"
+            android:textSize="30sp"
+            android:textColor="@color/colorWhite"/>
+        <RadioButton
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="bai2"
+            android:textSize="30sp"
+            android:textColor="@color/colorWhite"/>
+        <RadioButton
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="bai3"
+            android:textSize="30sp"
+            android:textColor="@color/colorWhite"/>
+    </RadioGroup>
+</RelativeLayout>
